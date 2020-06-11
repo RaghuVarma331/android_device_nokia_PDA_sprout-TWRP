@@ -1,2 +1,2 @@
-add_lunch_combo omni_PDA_sprout-eng
-add_lunch_combo omni_PDA_sprout-userdebug
+add_lunch_combo lineage_PDA_sprout-eng
+add_lunch_combo lineage_PDA_sprout-userdebug

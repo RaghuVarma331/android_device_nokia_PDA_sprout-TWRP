@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_PDA_sprout.mk
+	$(LOCAL_DIR)/lineage_PDA_sprout.mk

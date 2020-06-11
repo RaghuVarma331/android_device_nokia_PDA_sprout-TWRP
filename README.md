@@ -21,7 +21,7 @@ It was released in July 2018.
 ```
 # Compiling
 $ . build/envsetup.sh
-$ lunch omni_PDA_sprout-userdebug
+$ lunch lineage_PDA_sprout-userdebug
 $ make -jx recoveryimage //replace x in -jx with number of cores you want to allot for compilation
 
 ```

@@ -3,7 +3,7 @@
 #Nokia, plz, allow fastboot oem unlock, kthxbye
 
 # Setting path
-LOCAL_PATH := device/Nokia/PDA_sprout
+LOCAL_PATH := device/nokia/PDA_sprout
 
 # MTK stuff
 BOARD_HAS_MTK_HARDWARE := true
@@ -32,8 +32,9 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
 # Include prebuild for now
-TARGET_PREBUILT_KERNEL := device/Nokia/PDA_sprout/prebuilt/kernel
-TARGET_RECOVERY_FSTAB := device/Nokia/PDA_sprout/fstab.mt6771 # This fstab is not from device itself
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/nokia/PDA_sprout/prebuilt/Image.gz-dtb
+TARGET_RECOVERY_FSTAB := device/nokia/PDA_sprout/fstab.mt6771 # This fstab is not from device itself
 
 # Kernel info
 BOARD_KERNEL_BASE = 0x40078000
@@ -108,3 +109,5 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_HAS_REMOVABLE_STORAGE := true
+TW_Y_OFFSET := 89
+TW_H_OFFSET := -89
